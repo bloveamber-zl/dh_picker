@@ -37,7 +37,7 @@ class PickerTheme with DiagnosticableTreeMixin {
     this.useMagnifier = true,
     this.dividerStyle = DHStyle.dividerStyle,
     this.padding,
-  }): assert(backgroundColor == null || decoration == null);
+  }) : assert(backgroundColor == null || decoration == null);
 }
 
 class TitleActionTheme with DiagnosticableTreeMixin {
@@ -66,5 +66,5 @@ class TitleActionTheme with DiagnosticableTreeMixin {
     this.decoration,
     this.height = 44.0,
     this.titleStyle = DHStyle.titleStyle,
-  }): assert(backgroundColor == null || decoration == null);
+  }) : assert(backgroundColor == null || decoration == null);
 }
